@@ -1,0 +1,215 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: black;
+    font-family: "Josefin Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+}
+
+header {
+    background-color: black;
+    display: flex;
+    position: relative;
+    width: 100%;
+   font-weight: 400;
+   letter-spacing: 1.2px;
+}
+
+#oi {
+    color: white;
+    margin-left: 1%;
+    font-family: "Josefin Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 0.5cm;
+}
+
+#io {
+    display: flex;
+    position: absolute;
+    color: rgba(255, 255, 255, 0.5);;
+    width: 50%;
+    height: 100%;
+    margin-left: 25%;
+    justify-content:  center;
+    align-items: center;
+    font-family: "Josefin Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";;
+}
+
+#boto{
+    color: #20c997;
+}
+
+#oio{
+    border: solid black 2px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#oio>div{
+    position: absolute;
+}
+
+#submenu{
+    position: absolute;
+    display: flex;
+    border: solid white 2px;
+    width: 200px;
+    height: 390px;
+    z-index: 1000;
+    background-color: white;
+    margin-top: 31px;
+    opacity: 0;
+    transition: 0.4s;
+}
+
+#gaga:hover #submenu{
+    opacity: 100%;
+}
+
+#d1:hover{
+    border: transparent;
+    background-color: whitesmoke;
+}
+
+.nagea{
+    color: black;
+    text-decoration: none;
+}
+
+#submenu>ul{
+    color: black;
+    list-style: none;
+}
+
+#submenu>ul>li{
+    margin-top: 26%;
+}    
+
+#subsub{
+    position: absolute;
+    display: block;
+    width: 200px;
+    height: 170px;
+    list-style: none;
+    background-color: white;
+    border: solid white 1px;
+    color: black;
+    margin-left: 158px;
+    margin-top: -20%;
+    z-index: 2000;
+    opacity: 0;
+    transition: 0.4s;
+}
+
+#d8:hover #subsub{
+    opacity: 100;
+}
+
+#subsub>li{
+    display: block;
+    color: black;
+    z-index: 1114;
+}
+
+.tag {
+    margin-left: 5%;
+}
+
+a {
+    color: rgba(255, 255, 255, 0.5);;
+    text-decoration: none;
+}
+
+
+
+.che:hover{
+    color: #20c997;
+}
+
+
+#my{
+    color: white;
+    margin-top: 0px;
+    font-size: 90px;
+    margin-left: 39%;
+    margin-top: 4%;
+}
+
+#but{
+    margin-top: 45px;
+    width: 60%;
+    filter: saturate(0%);
+    transition: 0.3s;
+    margin-left: 2%;
+}
+
+#but:hover{
+    filter: saturate(100%);
+    transform: scale(1.03);
+}
+
+#pvamos{
+    margin-left: 20%;
+    margin-right: 2%;
+    margin-top: 45px;
+    border: ;
+    width: 40%;
+    color: white;
+}
+
+#preto3{
+    display: flex;
+}
+
+#pvamos>p{
+    color: wheat;
+}
+
+#lorem{
+    font-weight: 350;
+    line-height: 1.7;
+    color: #777;
+}
+
+#titleee{
+    font-weight: 390;
+}
+
+#preto4{
+    width: 100%;
+    height: 600px;
+    border: ;
+    margin-top: 9%;
+    display: flex;
+    justify-content: space-evenly;
+    color: #777;
+    font-size: 1.2em;
+}
+
+#preto4>div>img{
+    border-radius: 50%;
+    margin-left: 30%;
+    margin-bottom: 50px;
+    filter: saturate(0%);
+    transition: 0.3;
+}
+
+#preto4>div>img:hover{
+    filter: saturate(100%);
+    transform: scale(1.02);
+}
+
+
+
+#poc{
+    color: #777;
+    margin-bottom: 4%;
+}
+
+#poc>span{
+    color: #20c997;
+}
+

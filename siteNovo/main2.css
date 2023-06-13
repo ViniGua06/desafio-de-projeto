@@ -1,0 +1,183 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: black;
+}
+
+header {
+    background-color: black;
+    display: flex;
+    position: relative;
+    width: 100%;
+    font-weight: 400;
+    letter-spacing: 1.2px;
+}
+
+#oi {
+    color: white;
+    margin-left: 1%;
+    font-family: "Josefin Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 0.5cm;
+}
+
+#io {
+    display: flex;
+    position: absolute;
+    color: rgba(255, 255, 255, 0.5);;
+    width: 50%;
+    height: 100%;
+    margin-left: 25%;
+    justify-content:  center;
+    align-items: center;
+    font-family: "Josefin Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";;
+}
+
+#servico{
+    color: #20c997;
+}
+
+#oio{
+    border: solid black 2px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#oio>div{
+    position: absolute;
+}
+
+#submenu{
+    position: absolute;
+    display: flex;
+    border: solid white 2px;
+    width: 200px;
+    height: 390px;
+    z-index: 1000;
+    background-color: white;
+    margin-top: 31px;
+    opacity: 0;
+    transition: 0.4s;
+}
+
+#gaga:hover #submenu{
+    opacity: 100%;
+}
+
+#d1:hover{
+    border: transparent;
+    background-color: whitesmoke;
+}
+
+.nagea{
+    color: black;
+    text-decoration: none;
+}
+
+#submenu>ul{
+    color: black;
+    list-style: none;
+}
+
+#submenu>ul>li{
+    margin-top: 26%;
+}    
+
+#subsub{
+    position: absolute;
+    display: block;
+    width: 200px;
+    height: 170px;
+    list-style: none;
+    background-color: white;
+    border: solid white 1px;
+    color: black;
+    margin-left: 158px;
+    margin-top: -20%;
+    z-index: 2000;
+    opacity: 0;
+    transition: 0.4s;
+}
+
+#d8:hover #subsub{
+    opacity: 100;
+}
+
+#subsub>li{
+    display: block;
+    color: black;
+    z-index: 1114;
+}
+
+.tag {
+    margin-left: 5%;
+}
+
+a {
+    color: rgba(255, 255, 255, 0.5);;
+    text-decoration: none;
+}
+
+
+
+.che:hover{
+    color: #20c997;
+}
+
+#ver{
+    color: #20c997;
+}
+
+#my{
+    color: white;
+    margin-top: 0px;
+    font-size: 90px;
+    margin-left: 39%;
+    margin-top: 4%;
+}
+
+#preto2{
+    width: 100%;
+    display: flex;
+    border: solid ;
+    height: 1200px;
+    margin-top: 40px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-basis: 33%;
+}
+
+#preto2>div{
+    width: 620px;
+    height: 440px;
+    border: ;
+    background-color: #262626;
+    padding: 2%;
+}
+
+.paga{
+    color: white;
+    margin-top: 30%;
+    font-size: 30px;
+}
+
+.pgaa{
+    color: #777;
+    font-size: 20px;
+}
+
+.pg{
+    color: #20c997;
+    margin-top: 30px;
+}
+
+#nif{
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 22px;
+    align-items: flex-start;
+}
